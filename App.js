@@ -1,5 +1,5 @@
 var pad = document.querySelector (".container");
-pad.style.padding="0px 100px 0px 100px";
+pad.style.padding="0px 0px 0px 0px";
 
 var title = document.querySelector(".title2");
 title.style.color="blue";
