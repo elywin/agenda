@@ -2,7 +2,7 @@ var pad = document.querySelector (".container");
 pad.style.padding="0px 100px 50px 100px";
 
 var title1 = document.querySelector(".topHead");
-title1.innerHTML="Meeting Agenda";
+title1.innerHTML="Meeting agenda";
 
 var title = document.querySelector(".title2");
 title.innerHTML="Notes and Action Items";
