@@ -1,5 +1,5 @@
 var pad = document.querySelector (".container");
-pad.style.padding="0px 100px 50px 100px";
+pad.style.padding="0px 100px 100px 100px";
 
 var title = document.querySelector(".title2");
 title.style.color="blue";
@@ -9,12 +9,6 @@ heading.style.color="blue";
 heading.style.textAlign="center";
 heading.style.fontSize="60px";
 
-var head = document.querySelector("span");
-head.style.fontStyle="normal";
-
-// ar x = document.getElementById("myTable").rows[0].cells;
-// var hr = document.querySelector(".Date").row[0].cells;
-// hr.getMonth();
 
 var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var n = new Date();
@@ -33,4 +27,5 @@ hd.rows[0].cells[2].innerHTML="Location:Room 42";
 hd.rows[0].cells[0].style.padding="10px";
 hd.rows[0].cells[1].style.padding="10px";
 hd.rows[0].cells[2].style.padding="10px";
-hd.style.color="grey";
+hd.style="color:grey;width: 500px; margin:auto; display:block";
+
