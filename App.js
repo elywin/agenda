@@ -17,9 +17,10 @@ var m= n.getMonth();
 var y = n.getFullYear();
 
 
-t = new Date();
-h= t.getHours();
-mins= t.getMinutes();
+var t = new Date();
+var h= t.getHours();
+var mins= t.getMinutes();
+
 var hd = document.querySelector(".myTable");
 hd.rows[0].cells[0].innerHTML="Date:"+ d + "/" + m + "/" + y;
 hd.rows[0].cells[1].innerHTML="Time:" + h + ":" + mins ;
